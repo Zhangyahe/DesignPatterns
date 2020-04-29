@@ -12,7 +12,8 @@ public class Single02 {
     private Single02() {
     }
 
-    private static Single02 getInstance() {
+    //添加synchronized关键字
+    private static synchronized Single02 getInstance() {
         try {
             Thread.sleep(1);
         } catch (InterruptedException e) {
