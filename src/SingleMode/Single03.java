@@ -7,7 +7,7 @@ package SingleMode;
  * @version: 1.0
  */
 public class Single03 {
-    private static Single03 INSTANCE;
+    private static volatile Single03 INSTANCE;
     private Single03(){
     }
 
